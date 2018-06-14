@@ -6,10 +6,9 @@ public class MobileViVo extends Mobile{
 		super(soft);
 	}
 
-	@Override
-	void run() {
+	public void run() {
 		System.out.print("MobileViVo	");
-		soft.run();
+		super.run();
 	}
 
 }

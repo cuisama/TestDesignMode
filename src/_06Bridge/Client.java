@@ -19,5 +19,6 @@ public class Client {
 		m2.run();
 		m2.setMobileSoft(s2);
 		m2.run();
+		
 	}
 }

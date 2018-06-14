@@ -6,10 +6,9 @@ public class MobileMI extends Mobile{
 		super(soft);
 	}
 
-	@Override
-	void run() {
-		System.out.print("MobileMI	");
-		soft.run();
-	}
+//	public void run() {
+//		System.out.print("MobileMI	");
+//		super.run();
+//	}
 
 }
