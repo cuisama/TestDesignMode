@@ -3,7 +3,7 @@ package _04ChainOfResponsibility;
 public class GeneralManager extends Manager{
 
 	GeneralManager(String name){
-		this.name = name;
+		super(name);
 	}
 	
 	@Override

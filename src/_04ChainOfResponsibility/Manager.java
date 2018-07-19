@@ -4,9 +4,9 @@ public abstract class Manager {
 
 	protected String name;
 	
-//	protected Manager(String name){
-//		this.name = name;
-//	}
+	protected Manager(String name){
+		this.name = name;
+	}
 	
 	protected Manager superior;
 	

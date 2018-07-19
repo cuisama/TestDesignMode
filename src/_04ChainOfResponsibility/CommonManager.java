@@ -3,9 +3,9 @@ package _04ChainOfResponsibility;
 public class CommonManager extends Manager{
 
 	CommonManager(String name){
-		this.name = name;
+		super(name);
 	}
-	
+
 	@Override
 	protected void requestApplication(Request request) {
 		if(request.type.equals("请假") && request.number<2){

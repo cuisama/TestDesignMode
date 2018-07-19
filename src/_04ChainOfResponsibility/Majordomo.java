@@ -3,7 +3,7 @@ package _04ChainOfResponsibility;
 public class Majordomo extends Manager{
 
 	Majordomo(String name){
-		this.name = name;
+		super(name);
 	}
 	
 	@Override
