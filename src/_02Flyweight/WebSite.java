@@ -7,6 +7,6 @@ public abstract class WebSite {
 	protected WebSite(String name){
 		this.name = name;
 	}
-	
 	public abstract void use();
+	public abstract void use(ExternalState state);
 }
